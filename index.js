@@ -25,7 +25,7 @@ parseInt(b.stargazers_count) - parseInt(a.stargazers_count))
           <p>Descrição ${repoInfo[repo].description}</p>
           <p>Estrelas: ${repoInfo[repo].stargazers_count}</p>
           <p>Linguagem: ${repoInfo[repo].language}</p>
-          <p>acesse no github ${repoInfo[repo].url}</p>
+          <p>acesse no github <a href='${repoInfo[repo].url}'></a></p>
         </div>
         `
       })
